@@ -1,0 +1,981 @@
+{
+  "configuracion": {
+    "poblacion": 100,
+    "generaciones": 100,
+    "altura": 4,
+    "prob_cruce": 0.85,
+    "prob_mutacion": 0.25,
+    "elites": 2,
+    "seleccion": "Torneo",
+    "mutaciones": [
+      "Hojas",
+      "Operadores",
+      "Intercambio",
+      "Subárbol"
+    ],
+    "operadores": [
+      "+",
+      "-",
+      "*",
+      "sin",
+      "cos"
+    ],
+    "semilla": 2430085,
+    "tolerancia": 1e-08,
+    "protegido": false
+  },
+  "expresion": "((x - -1) + (x * x))",
+  "metricas": {
+    "mse": 2.4347558803117647e-33,
+    "rmse": 4.9343245538895844e-17,
+    "nmse": 2.289156243526256e-34,
+    "r2": 1.0,
+    "n": 81
+  },
+  "historial": [
+    {
+      "generacion": 0,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": []
+    },
+    {
+      "generacion": 1,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "sin(1)",
+          "donante": "sin(1)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "sin(1)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "sin(1)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "(cos(x) * (x + ((0.5 + x) * cos(-3))))"
+        },
+        {
+          "padre": "((sin(x) * sin(x)) - (cos(x) + sin(3)))",
+          "donante": "(sin((1 - 1)) - sin(cos(x)))",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "((sin(x) * sin(x)) - (((x * x) + (x * x)) + sin(3)))"
+        },
+        {
+          "padre": "sin(x)",
+          "donante": "sin(sin(x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "sin(sin(x))"
+        },
+        {
+          "padre": "cos(0)",
+          "donante": "cos(sin(x))",
+          "cruce_aplicado": false,
+          "mutacion": "Subárbol",
+          "hijo": "(-3 * cos(sin((x * x))))"
+        }
+      ]
+    },
+    {
+      "generacion": 2,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "((cos(1) - (0 + x)) * (sin(0) - sin(x)))",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "((cos(1) - (0 + x)) * (x - sin(x)))"
+        },
+        {
+          "padre": "cos(((0 - x) * (x - x)))",
+          "donante": "cos(1)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "cos(((0 - x) * 1))"
+        },
+        {
+          "padre": "cos((x - x))",
+          "donante": "(cos(x) + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "cos((x - x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "((x + x) * x)",
+          "donante": "((x + x) * x)",
+          "cruce_aplicado": false,
+          "mutacion": "Hojas",
+          "hijo": "((x + x) * 0.5)"
+        }
+      ]
+    },
+    {
+      "generacion": 3,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "x",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "cos(sin((-3 + x)))",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "cos(x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x * x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": false,
+          "mutacion": "Operadores",
+          "hijo": "(x + x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        }
+      ]
+    },
+    {
+      "generacion": 4,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "x",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "cos(x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "x"
+        },
+        {
+          "padre": "cos(cos(cos(-3)))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Hojas",
+          "hijo": "((x * x) * x)"
+        }
+      ]
+    },
+    {
+      "generacion": 5,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(sin(x) * (x + x))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(sin(x) * (x + x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "(x * sin(x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x * x))"
+        }
+      ]
+    },
+    {
+      "generacion": 6,
+      "arbol": "(x * x)",
+      "metricas": {
+        "mse": 4.074999999999999,
+        "rmse": 2.018662923818635,
+        "nmse": 0.3831312932767216,
+        "r2": 0.6168687067232784,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * sin(x))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Operadores (sin nodo compatible)",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Intercambio",
+          "hijo": "(x * (x * x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x * x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(cos(sin(sin(x))) * (x + x))",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "(x * (sin(x) - -1))"
+        }
+      ]
+    },
+    {
+      "generacion": 7,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "x",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(sin(x) * (1 + x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(sin(x) * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        }
+      ]
+    },
+    {
+      "generacion": 8,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "x",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "((x * (sin(x) - -1)) * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Operadores",
+          "hijo": "(x * (sin(x) - -1))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        }
+      ]
+    },
+    {
+      "generacion": 9,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": false,
+          "mutacion": "Hojas",
+          "hijo": "(0 * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "((x * x) * x)"
+        },
+        {
+          "padre": "x",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "0.5"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        }
+      ]
+    },
+    {
+      "generacion": 10,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x + (x * x)))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "((x * x) + ((x + x) - x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x * x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x * x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Hojas",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "sin((2 * sin(x)))"
+        }
+      ]
+    },
+    {
+      "generacion": 11,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "((x * x) + ((x + x) - x))",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "(x * (x - -1))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x - -1))"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "(2 + (x * (x * x)))"
+        }
+      ]
+    },
+    {
+      "generacion": 12,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "x",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Operadores",
+          "hijo": "(x + x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x * x))"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x - -1))"
+        }
+      ]
+    },
+    {
+      "generacion": 13,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Intercambio",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "((x * x) + ((x + x) - x))",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x - -1))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Operadores",
+          "hijo": "(x - x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * (x - -1))",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        }
+      ]
+    },
+    {
+      "generacion": 14,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "((x - x) + sin(1))"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + (x * x))"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x - -1))"
+        }
+      ]
+    },
+    {
+      "generacion": 15,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x * (x - -1))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + x)"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * (x - -1))"
+        },
+        {
+          "padre": "x",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "((x - sin(x)) * x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "((x - sin(x)) * x)"
+        }
+      ]
+    },
+    {
+      "generacion": 16,
+      "arbol": "(x + (x * x))",
+      "metricas": {
+        "mse": 1.0,
+        "rmse": 1.0,
+        "nmse": 0.09401994927036114,
+        "r2": 0.9059800507296388,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "((x * x) + x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "((x * x) + x)"
+        },
+        {
+          "padre": "((x * x) + x)",
+          "donante": "(x + x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "((x * x) + (x + x))"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + (x * x))"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x * x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + x)"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "((x * x) + 2)",
+          "cruce_aplicado": true,
+          "mutacion": "Hojas",
+          "hijo": "(x * x)"
+        }
+      ]
+    },
+    {
+      "generacion": 17,
+      "arbol": "(x + (x * (x + sin(x))))",
+      "metricas": {
+        "mse": 0.3836813499805023,
+        "rmse": 0.6194201724035974,
+        "nmse": 0.0360737010611505,
+        "r2": 0.9639262989388495,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x + (x * (x - -1)))",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + (x * (x - x)))"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x * (x - -1))",
+          "cruce_aplicado": true,
+          "mutacion": "Hojas",
+          "hijo": "(x + (3 * x))"
+        },
+        {
+          "padre": "(x + (x + (x * x)))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Intercambio",
+          "hijo": "(x + ((x * x) + x))"
+        },
+        {
+          "padre": "((x * x) + x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "((x * x) + x)"
+        },
+        {
+          "padre": "((x * x) + x)",
+          "donante": "x",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "-2"
+        }
+      ]
+    },
+    {
+      "generacion": 18,
+      "arbol": "(x + (x * (x + sin(x))))",
+      "metricas": {
+        "mse": 0.3836813499805023,
+        "rmse": 0.6194201724035974,
+        "nmse": 0.0360737010611505,
+        "r2": 0.9639262989388495,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + ((x * x) * x))"
+        },
+        {
+          "padre": "(x * (x - -1))",
+          "donante": "(x * (x - -1))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x + (x * (x + sin(x))))",
+          "donante": "(x + x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Subárbol",
+          "hijo": "(sin(x) * x)"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + (x + (x * x)))"
+        }
+      ]
+    },
+    {
+      "generacion": 19,
+      "arbol": "((x - -1) + (x * x))",
+      "metricas": {
+        "mse": 2.4347558803117647e-33,
+        "rmse": 4.9343245538895844e-17,
+        "nmse": 2.289156243526256e-34,
+        "r2": 1.0,
+        "n": 81
+      },
+      "validos": 100,
+      "operaciones": [
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + ((x * x) * x))"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "((x * x) + x)",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x + (x * x))"
+        },
+        {
+          "padre": "(x * x)",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "(x * x)"
+        },
+        {
+          "padre": "(x + (x * x))",
+          "donante": "(x + ((x * x) + x))",
+          "cruce_aplicado": true,
+          "mutacion": "Sin mutación",
+          "hijo": "x"
+        },
+        {
+          "padre": "((x + x) + (x * (sin(x) + x)))",
+          "donante": "(x + (x * x))",
+          "cruce_aplicado": false,
+          "mutacion": "Sin mutación",
+          "hijo": "((x + x) + (x * (sin(x) + x)))"
+        }
+      ]
+    }
+  ]
+}

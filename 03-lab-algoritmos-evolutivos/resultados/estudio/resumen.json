@@ -1,0 +1,62 @@
+{
+  "corridas": 40,
+  "nota": "Se comparan configuraciones completas: cambian representación, cruce y unidad/probabilidad de mutación. No se atribuyen las diferencias solo a la codificación.",
+  "resultados": [
+    {
+      "problema": "Máximo oscilatorio",
+      "representacion": "Binaria",
+      "corridas": 5,
+      "media": 22.313676548630493,
+      "desviacion": 1.8532852266162081e-07
+    },
+    {
+      "problema": "Máximo oscilatorio",
+      "representacion": "Real",
+      "corridas": 5,
+      "media": 22.308439974915633,
+      "desviacion": 0.007142726922324705
+    },
+    {
+      "problema": "Mínimo oscilatorio",
+      "representacion": "Binaria",
+      "corridas": 5,
+      "media": -201.8311054411907,
+      "desviacion": 0.0242043423173009
+    },
+    {
+      "problema": "Mínimo oscilatorio",
+      "representacion": "Real",
+      "corridas": 5,
+      "media": -201.84321533164027,
+      "desviacion": 5.077069119247493e-06
+    },
+    {
+      "problema": "Schwefel acotada",
+      "representacion": "Binaria",
+      "corridas": 5,
+      "media": -190.41599304198812,
+      "desviacion": 0.5968623668390337
+    },
+    {
+      "problema": "Schwefel acotada",
+      "representacion": "Real",
+      "corridas": 5,
+      "media": -190.8881892741462,
+      "desviacion": 0.02413937607011565
+    },
+    {
+      "problema": "Rastrigin",
+      "representacion": "Binaria",
+      "corridas": 5,
+      "media": 0.6470472194197413,
+      "desviacion": 0.8277172509072758
+    },
+    {
+      "problema": "Rastrigin",
+      "representacion": "Real",
+      "corridas": 5,
+      "media": 0.0007048917813605726,
+      "desviacion": 0.0005066670263810131
+    }
+  ]
+}

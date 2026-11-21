@@ -1,0 +1,84 @@
+{
+  "hormiga": {
+    "alimentos": 3,
+    "costo": 21,
+    "tres_algoritmos_coinciden": true
+  },
+  "binario": {
+    "configuracion": {
+      "problema": "Máximo oscilatorio",
+      "representacion": "Binaria",
+      "dimensiones": 1,
+      "poblacion": 80,
+      "generaciones": 100,
+      "precision": 0.001,
+      "seleccion": "Torneo",
+      "cruce": "Monopunto",
+      "prob_cruce": 0.85,
+      "prob_mutacion": 0.04,
+      "elites": 2,
+      "semilla": 2430085,
+      "alfa": 0.5,
+      "eta": 5.0
+    },
+    "mejor": 22.313676641294755,
+    "vector": [
+      31.500961333048494
+    ]
+  },
+  "real": {
+    "configuracion": {
+      "problema": "Rastrigin",
+      "representacion": "Real",
+      "dimensiones": 3,
+      "poblacion": 80,
+      "generaciones": 150,
+      "precision": 0.001,
+      "seleccion": "Torneo",
+      "cruce": "SBX",
+      "prob_cruce": 0.85,
+      "prob_mutacion": 0.04,
+      "elites": 2,
+      "semilla": 2430085,
+      "alfa": 0.5,
+      "eta": 5.0
+    },
+    "mejor": 0.004470063955452019,
+    "vector": [
+      -0.0014888096539716128,
+      -0.002962345404487198,
+      0.0033970755664777205
+    ]
+  },
+  "reinas": {
+    "n": 12,
+    "generacion": 77,
+    "conflictos": 0,
+    "filas": [
+      5,
+      8,
+      12,
+      3,
+      6,
+      11,
+      1,
+      4,
+      7,
+      10,
+      2,
+      9
+    ]
+  },
+  "arboles": {
+    "generacion": 19,
+    "expresion": "((x - -1) + (x * x))",
+    "metricas": {
+      "mse": 2.4347558803117647e-33,
+      "rmse": 4.9343245538895844e-17,
+      "nmse": 2.289156243526256e-34,
+      "r2": 1.0,
+      "n": 81
+    },
+    "muestras": 81
+  }
+}

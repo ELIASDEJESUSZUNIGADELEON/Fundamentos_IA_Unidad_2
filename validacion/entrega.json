@@ -1,0 +1,26 @@
+{
+  "estado": "correcto",
+  "fecha_utc": "2026-11-21T01:26:18.250395+00:00",
+  "comprobaciones": [
+    "Los 63 archivos del proyecto de la hormiga coinciden con la revisión de César.",
+    "Visualizador de grafos vacío, reservado con .gitkeep.",
+    "README con cinco actividades numeradas, seis imágenes y enlaces locales válidos.",
+    "Seis capturas Qt legibles revisadas visualmente, con archivos PNG válidos.",
+    "BFS, Dijkstra y A* coinciden en una ruta de costo 21 que recoge los tres alimentos.",
+    "Objetivos binario y real recalculados; historiales con G0 y elitismo coherente.",
+    "Solución de doce reinas verificada por enumeración de todos sus pares.",
+    "La regresión simbólica conserva los 81 puntos y su MSE coincide con las predicciones exportadas.",
+    "Estudio de cuarenta corridas, con cinco semillas por configuración.",
+    "Reportes de 644 pruebas aprobadas: 611 del equipo y 33 de los programas nuevos."
+  ],
+  "sha256_programas": {
+    "ia_unidad2/expresiones.py": "a5950884e7c2464f2c93fc4fbf20f94d26dfe7798fcdd1a5f9cfec35557e5084",
+    "ia_unidad2/interfaz_comun.py": "95b35c56029aed57549703a5795fd209a17b1943546b3e31497121aeb21087cd",
+    "ia_unidad2/optimizacion.py": "462a6c5a0635a9012c98526a0edb22fb8f71a785ae33baba3984eeec417bf169",
+    "ia_unidad2/reinas.py": "64cfc63041f348fef695df6c480c52594b157f576a34d97d0630eb83408a222c",
+    "ia_unidad2/ventana_arboles.py": "4af013749d27b7d9942c49d9a7a5d053bd43f2b8256851e72b2d300cf2370157",
+    "ia_unidad2/ventana_laboratorio.py": "dd90c17dcd773f197c9053b4ae5e182496040139ed98851b51be6b2ef7fbffdc",
+    "ia_unidad2/ventana_reinas.py": "525d67a296179bb6b05932df4de02cf15b5d940e06b0b4c11ecfffdc63b1bf6a",
+    "ia_unidad2/__init__.py": "831cc3340de1823503cfa169be55bf0fe310ed16a2db3e09139c7f09da4d4b52"
+  }
+}

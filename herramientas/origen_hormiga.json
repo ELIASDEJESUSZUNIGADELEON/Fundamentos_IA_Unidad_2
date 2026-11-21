@@ -1,0 +1,258 @@
+{
+  "repositorio": "https://github.com/cesar-upv/2430233_FUNDAMENTOS_IA_UNIDAD_2",
+  "revision": "0d10fb6d0704d2e3419de5a61a8adba6e660f5a7",
+  "archivos": [
+    {
+      "archivo": "01-problema-hormiga/.gitignore",
+      "sha256": "33634262cfac99e108cf0c0a09a988125e9bdfe262ff6a2aee8cd159726b1657"
+    },
+    {
+      "archivo": "01-problema-hormiga/.python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "archivo": "01-problema-hormiga/README.md",
+      "sha256": "4a66444c2d5172049995a6454c600a84c8df562b7b0861c97740cb5d1117127e"
+    },
+    {
+      "archivo": "01-problema-hormiga/docs/architecture/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/docs/architecture/decisions/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/docs/architecture/decisions/0001-one-search-engine-three-settings.md",
+      "sha256": "f8fc27b4ec45169ecb8ecec923d74f97c2a81c7a5856a960b55c32e8b9b1c7d7"
+    },
+    {
+      "archivo": "01-problema-hormiga/docs/architecture/decisions/0002-admissible-inconsistent-heuristic-with-reopening.md",
+      "sha256": "c2974f50d0ba7be5719c09817f5edced259c9f68497251990248caecaf626da6"
+    },
+    {
+      "archivo": "01-problema-hormiga/docs/diagrams/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/pyproject.toml",
+      "sha256": "751474b9f568296511b01849f24e2b48633330efd63eeaa06aadbe2a91bd807f"
+    },
+    {
+      "archivo": "01-problema-hormiga/scripts/check.sh",
+      "sha256": "4ad46362c406b4c07a9d890089629a78ffa3c231ba5ffa59c6015e419c0f6ddd"
+    },
+    {
+      "archivo": "01-problema-hormiga/scripts/fix.sh",
+      "sha256": "71424be6777aa702c79cbc0bfd3019453f12eb7c0cab4c1f9a9a8849e74d2d79"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/__init__.py",
+      "sha256": "13924903d856b79821aa295517a1b3edc93ba5f195ca4966de920acde2552bc5"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/domain/grid.py",
+      "sha256": "0705cfdca3f4a01189e8d0f68f51d5944b712b974e56b088a73ce0014a33ffa1"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/domain/position.py",
+      "sha256": "9c9efc55462b92f6b22f73bcff31996e9cfc92135e0cc3ffbf5102c8be0e471c"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/domain/scenario.py",
+      "sha256": "3537ff73b1ae1645e88c3ba133d962b4bdca6a902ebbd1ea9b9b0872197fdd93"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/generation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/generation/scenario_generator.py",
+      "sha256": "f6c1edf63740b6a4a07b42e441ca9b00f38e3e92ac0b7c2662dc1d3fd52b6951"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/persistence/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/presentation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/presentation/qt/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/presentation/qt/editor.py",
+      "sha256": "adc9a5bb9cc1c2c40834321c2caa04dcf2707189af356673fd25a8fe88509e68"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/presentation/qt/grid_scene.py",
+      "sha256": "84fee897efe0ffec60fab841ded40bf8ba95657f52eb5d4a6486858e9b6970b8"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/presentation/qt/main_window.py",
+      "sha256": "50cd668f409aa7dce99c5c68aaa432b12976bb3726dad3f5855cce9798de26a0"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/presentation/qt/search_view.py",
+      "sha256": "d0033d5808f95c875d618566190da6a6f409c9ecd3cb89b2b17c757ebb70ca65"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/algorithms.py",
+      "sha256": "71e170f03030131e588cff3b0d7536de88591d7de4ccde94e2f6a19502d384f3"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/astar.py",
+      "sha256": "f26f98dd6a7a42350bf47497040cab2a36adac4747f6b6391fc606abc83fd751"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/bfs.py",
+      "sha256": "48ae568dd13baff067e22e177c7376627ab8e30a03f17434dfda6fa8478cc9bf"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/dijkstra.py",
+      "sha256": "e95c5b5ea39239c8582457398aabe4b53c8b25dbe223351179d98ddeae4ac3d7"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/heuristics/__init__.py",
+      "sha256": "775f5f3d51554a007d9740b8166c4375523fc5662ddee65f6d72cb56f92894a7"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/heuristics/lower_bounds.py",
+      "sha256": "1c28c76ab4fdd980ffe75cfcb2a7ee4831c713b014b396214f8facd95eacacd1"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/progress.py",
+      "sha256": "3f85a53b2ee64b0466f3e43c47eeb5de844d43668bc5c25362e0d7538f27d427"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/result.py",
+      "sha256": "32e6d2491842379b2169b0f4c803f5fae13ee3af8bf2909008c5a95c80844da9"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/runner.py",
+      "sha256": "726163138c33040adb46d24310f8a305e67a0bb2ae0afa62f7ec4d3f317d6e11"
+    },
+    {
+      "archivo": "01-problema-hormiga/src/ant_pathfinding/search/state.py",
+      "sha256": "12a4696be6aded852ed23b3456fb440ee016d9bba4373ade13a477e8313b8119"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/fixtures/maps/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/integration/qt/test_editor.py",
+      "sha256": "c5801d7db8790e65c9a246f751fe8ac4bbff79d9b2c6987d08f26530f08f2273"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/integration/qt/test_search_view.py",
+      "sha256": "b48fb81e2d647e236a7b3fe470559571cdc69d786b0b046d9400fcfaa1ec8f59"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/domain/test_domain_adversarial.py",
+      "sha256": "015b4896ccda92ff85c07ceff0f96de42743cb37bef10727a8ecc35b42d195c9"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/domain/test_grid.py",
+      "sha256": "e3374875d2e4037e5a8511ec3a2ee47e211679e66ef9a93bef6b0cb95eb6861d"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/domain/test_position.py",
+      "sha256": "beaa324740c3edd9ad2ce8ee9b655916412307b6f8b9b78e39d96ca0332d2080"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/domain/test_scenario.py",
+      "sha256": "34373d6ca72d7672d4742efc871b65908c525158ff5a1ad43cd8c0c17971ab7f"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/generation/test_scenario_generator.py",
+      "sha256": "8495f60058992ac5a73a0b9ddda4bb0ed7a978ecce34d4d5b4f036c42d8cd294"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/conftest.py",
+      "sha256": "7b964fa20cca9a068cd5ade72a0263eae167acca883e2d07d593418fe5761d9d"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/independent_cases.py",
+      "sha256": "480521dd539d6c5577cc89fa3ee9bf6e65f377c880941770e154151fc3ad05aa"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/independent_oracle.py",
+      "sha256": "adb3170b8f8d8435566733de55c56be4a95ea8901ad1aa356095ad8c4065d183"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_algorithms.py",
+      "sha256": "c9fdc8c1dedcead9732a30662948c0f51a868ff36a390f8e0a5f2e714007d062"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_bfs.py",
+      "sha256": "7c63ee7ed0f489954aa699cbc209d2e716c234f06ab7ce977e54a39404f3e66e"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_bfs_adversarial.py",
+      "sha256": "c6865f9833f0fbb8f585c0d48396b87a854fc5e3cff1f8b28f5064e56bc0ab02"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_bfs_fidelity_independent.py",
+      "sha256": "a94224ec1f5fa3203bf5d9d1cf450e97af26932d308d762fd932bcdf2a754212"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_heuristics.py",
+      "sha256": "99b77523b610e811f156d5236c3eb8a636d846b12d704306440ede15790d7273"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_heuristics_independent.py",
+      "sha256": "aa9ed8d7e26cf18823da0b9d7c4fdc2f8886a5797d5693afba883ff92e7a43ca"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_layering_independent.py",
+      "sha256": "cfe38e32f2d4bab4788e5634c58dba6ea5179c39427fbb9646dc862f4c2ab6cd"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_optimality_independent.py",
+      "sha256": "4f188c34a09192e167c99714a19212ca76b4a4b8c73076ea7a1f99f90fab7e19"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_progress.py",
+      "sha256": "65f36abba84812cfbc0d4aef3ec0d0f8430c9f733fa7ff6430c8fa3ef76e6ec7"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_progress_contract_independent.py",
+      "sha256": "36981ced87798a6c784b5582ba2f484240644939fc6f3b1fdb6ba710095011ac"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_reopening_independent.py",
+      "sha256": "1c356c154389b99b66e26e30d43b805205e9f81b7bb4349f1201e6a7db9fd3cc"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_result.py",
+      "sha256": "ce47b5c7046fb7214f2ee360b5df5add2c934d2884496ea0680d3b887792cd2f"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/search/test_state.py",
+      "sha256": "46bafb4f481e6c9d2eb34873ecd69ac47bb480d24dae8ebf254034f03a77cbcf"
+    },
+    {
+      "archivo": "01-problema-hormiga/tests/unit/test_package.py",
+      "sha256": "43133f676be730bb35065f8ce6a2645a7c77e97517d5abfeb9eab5295747cd2b"
+    },
+    {
+      "archivo": "01-problema-hormiga/uv.lock",
+      "sha256": "3d92decda7993226aced741b7b300bb7815593bae512a64c2b1be235e1a1744a"
+    }
+  ]
+}
