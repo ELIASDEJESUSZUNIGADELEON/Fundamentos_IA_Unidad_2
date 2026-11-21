@@ -66,8 +66,8 @@ def main():
     assert len(re.findall(r"^!\[", readme, re.MULTILINE)) == 7
     for integrante in (
         "César Euresti",
-        "JUNIOR ARTURO VAZQUEZ LEONEL",
-        "OSVALDO FABIAN RAMIRO BALBOA",
+        "Junior Arturo Vazquez Leonel",
+        "Osvaldo Fabian Ramiro Balboa",
     ):
         assert integrante in readme
     rotos = []

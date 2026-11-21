@@ -1,6 +1,6 @@
 # Problema de la hormiga
 
-**Trabajo en equipo:** Elias de Jesus Zuñiga de Leon, César Euresti y JUNIOR ARTURO VAZQUEZ LEONEL.
+**Trabajo en equipo:** Elias de Jesus Zuñiga de Leon, César Euresti y Junior Arturo Vazquez Leonel.
 
 La hormiga debe recoger toda la comida y alcanzar la meta en una cuadrícula con obstáculos. Cada movimiento ortogonal tiene costo unitario. La aplicación permite editar el mapa y recorrer la búsqueda con BFS, Dijkstra o A*.
 

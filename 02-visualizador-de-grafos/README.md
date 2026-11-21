@@ -1,6 +1,6 @@
 # Algoritmos de caminos mínimos
 
-**Actividad 2 · Trabajo en equipo:** Elias de Jesus Zuñiga de Leon y OSVALDO FABIAN RAMIRO BALBOA.
+**Actividad 2 · Trabajo en equipo:** Elias de Jesus Zuñiga de Leon y Osvaldo Fabian Ramiro Balboa.
 
 Desde la raíz de la unidad se abre con `python iniciar.py grafos`. La [verificación del equipo](resultados/verificacion_equipo.json) contiene los resultados de los cuatro algoritmos. Los videos de la pantalla de guardado son opcionales y no se incluyen en esta entrega.
 

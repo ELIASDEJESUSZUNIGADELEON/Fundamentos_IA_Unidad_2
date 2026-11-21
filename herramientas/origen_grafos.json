@@ -3,7 +3,7 @@
   "revision": "1c02cdb4ad966b2832107ac405bd517d02bae674",
   "equipo": [
     "Elias de Jesus Zuñiga de Leon",
-    "OSVALDO FABIAN RAMIRO BALBOA"
+    "Osvaldo Fabian Ramiro Balboa"
   ],
   "archivos": [
     {
@@ -276,7 +276,7 @@
     {
       "archivo": "02-visualizador-de-grafos/README.md",
       "sha256_origen": "f7a10567bde792d164a7451d5c0a7724b374a8d4acc6b8b93e7a96dbd7b241c2",
-      "sha256_actual": "56efd20608f3145c32947244234cc9605d774205048822edc3f50776bd3ef91b",
+      "sha256_actual": "43b92a0de381cfe204855c5c235eae02bae3a8e1db6e5b1a524656aa95fded7e",
       "motivo": "Créditos del equipo, instrucciones para la unidad y conteo de las pruebas incluidas."
     },
     {

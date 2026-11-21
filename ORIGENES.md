@@ -4,7 +4,7 @@
 
 La sección 01 es el proyecto del equipo proporcionado por César, conservado con su autoría original en pyproject.toml.
 
-Equipo: Elias de Jesus Zuñiga de Leon, **César Euresti** y **JUNIOR ARTURO VAZQUEZ LEONEL**.
+Equipo: Elias de Jesus Zuñiga de Leon, **César Euresti** y **Junior Arturo Vazquez Leonel**.
 
 - Repositorio: https://github.com/cesar-upv/2430233_FUNDAMENTOS_IA_UNIDAD_2
 - Revisión: 0d10fb6d0704d2e3419de5a61a8adba6e660f5a7
@@ -17,7 +17,7 @@ El README de la actividad se amplió únicamente para identificar al equipo. El 
 
 ## Proyecto compartido del visualizador de grafos
 
-Equipo: Elias de Jesus Zuñiga de Leon y **OSVALDO FABIAN RAMIRO BALBOA**.
+Equipo: Elias de Jesus Zuñiga de Leon y **Osvaldo Fabian Ramiro Balboa**.
 
 - Repositorio: https://github.com/FabiRamiro/Algoritmos-Said
 - Revisión: 1c02cdb4ad966b2832107ac405bd517d02bae674.

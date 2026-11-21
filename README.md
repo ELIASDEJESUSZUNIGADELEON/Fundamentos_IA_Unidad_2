@@ -8,7 +8,7 @@ Actividades realizadas en la unidad 2 de Fundamentos de Inteligencia Artificial.
 
 Aplicación del equipo para encontrar una ruta que recoja todos los alimentos y llegue a la meta en una cuadrícula con obstáculos. Permite editar el mapa y ejecutar BFS, Dijkstra y A*.
 
-Trabajo en equipo con **César Euresti** y **JUNIOR ARTURO VAZQUEZ LEONEL**.
+Trabajo en equipo con **César Euresti** y **Junior Arturo Vazquez Leonel**.
 
 En la demostración se recogieron tres alimentos con una ruta de costo 21. Los tres algoritmos coincidieron en el costo.
 
@@ -20,7 +20,7 @@ En la demostración se recogieron tres alimentos con una ruta de costo 21. Los t
 
 Visualizador de caminos mínimos con Dijkstra, Bellman-Ford, Floyd-Warshall y A*. Permite recorrer los cálculos paso a paso, consultar las distancias y observar la ruta sobre el grafo.
 
-Trabajo en equipo con **OSVALDO FABIAN RAMIRO BALBOA**.
+Trabajo en equipo con **Osvaldo Fabian Ramiro Balboa**.
 
 En la demostración, los cuatro algoritmos encontraron la ruta 13 → 16 → 17 → 69, con costo 14.
 

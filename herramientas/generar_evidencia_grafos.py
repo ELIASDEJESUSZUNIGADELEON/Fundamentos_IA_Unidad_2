@@ -79,7 +79,7 @@ def main():
                 "fecha_utc": datetime.now(timezone.utc).isoformat(),
                 "equipo": [
                     "Elias de Jesus Zuñiga de Leon",
-                    "OSVALDO FABIAN RAMIRO BALBOA",
+                    "Osvaldo Fabian Ramiro Balboa",
                 ],
                 "resultados": resultados,
                 "captura": "capturas/02-grafos.png",
