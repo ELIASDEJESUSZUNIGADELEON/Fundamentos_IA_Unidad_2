@@ -21,24 +21,40 @@ def main():
         comprobaciones.append(texto)
         print("OK:", texto)
 
-    origen = json.loads(
-        (ROOT / "herramientas/origen_hormiga.json").read_text(encoding="utf-8")
+    for nombre in ("hormiga", "grafos"):
+        origen = json.loads(
+            (ROOT / f"herramientas/origen_{nombre}.json").read_text(encoding="utf-8")
+        )
+        ajustes = {a["archivo"]: a for a in origen.get("ajustes_locales", [])}
+        originales = {a["archivo"]: a["sha256"] for a in origen["archivos"]}
+        assert ajustes.keys() <= originales.keys()
+        for item in origen["archivos"]:
+            ajuste = ajustes.get(item["archivo"])
+            if ajuste:
+                assert ajuste["sha256_origen"] == item["sha256"] and ajuste["motivo"]
+            esperado = ajuste["sha256_actual"] if ajuste else item["sha256"]
+            assert (
+                hashlib.sha256((ROOT / item["archivo"]).read_bytes()).hexdigest()
+                == esperado
+            ), item["archivo"]
+        ok(
+            f"{nombre}: {len(originales)} archivos recibidos verificados; {len(ajustes)} ajustes locales documentados."
+        )
+    grafos = json.loads(
+        (
+            ROOT / "02-visualizador-de-grafos/resultados/verificacion_equipo.json"
+        ).read_text(encoding="utf-8")
     )
-    for item in origen["archivos"]:
-        assert (
-            hashlib.sha256((ROOT / item["archivo"]).read_bytes()).hexdigest()
-            == item["sha256"]
-        ), item["archivo"]
-    ok(
-        f"Los {len(origen['archivos'])} archivos del proyecto de la hormiga coinciden con la revisión de César."
-    )
-    grafos = list((ROOT / "02-visualizador-de-grafos").iterdir())
-    assert (
-        len(grafos) == 1
-        and grafos[0].name == ".gitkeep"
-        and grafos[0].stat().st_size == 0
-    )
-    ok("Visualizador de grafos vacío, reservado con .gitkeep.")
+    assert set(grafos["resultados"]) == {
+        "dijkstra",
+        "bellman-ford",
+        "floyd-warshall",
+        "astar",
+    }
+    for resultado in grafos["resultados"].values():
+        assert resultado["ruta"] == [13, 16, 17, 69]
+        assert resultado["costo"] == 14 and resultado["nodos"] == 30
+    ok("Cuatro algoritmos del visualizador: ruta 13 -> 16 -> 17 -> 69, costo 14.")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     assert re.findall(r"^## ([0-9]+)[.]", readme, re.MULTILINE) == [
         "1",
@@ -47,7 +63,13 @@ def main():
         "4",
         "5",
     ]
-    assert len(re.findall(r"^!\[", readme, re.MULTILINE)) == 6
+    assert len(re.findall(r"^!\[", readme, re.MULTILINE)) == 7
+    for integrante in (
+        "César Euresti",
+        "JUNIOR ARTURO VAZQUEZ LEONEL",
+        "OSVALDO FABIAN RAMIRO BALBOA",
+    ):
+        assert integrante in readme
     rotos = []
     for md in ROOT.rglob("*.md"):
         for enlace in re.findall(
@@ -60,15 +82,15 @@ def main():
                 rotos.append((str(md.relative_to(ROOT)), archivo))
     assert not rotos, rotos
     ok(
-        "README con cinco actividades numeradas, seis imágenes y enlaces locales válidos."
+        "README con cinco actividades numeradas, créditos de equipo, siete imágenes y enlaces locales válidos."
     )
     imagenes = list((ROOT / "capturas").glob("*.png"))
-    assert len(imagenes) == 6
+    assert len(imagenes) == 7
     for archivo in imagenes:
         with Image.open(archivo) as im:
             assert im.width >= 900 and im.height >= 600
             im.verify()
-    ok("Seis capturas Qt legibles revisadas visualmente, con archivos PNG válidos.")
+    ok("Siete capturas Qt legibles revisadas visualmente, con archivos PNG válidos.")
     hormiga = json.loads(
         (ROOT / "01-problema-hormiga/resultados/verificacion_equipo.json").read_text(
             encoding="utf-8"
@@ -149,6 +171,10 @@ def main():
     for nombre, esperadas in [
         ("pruebas-propias.xml", 33),
         ("pruebas-hormiga.xml", 611),
+        ("pruebas-grafos-integracion.xml", 9),
+        ("pruebas-grafos-bellman.xml", 213),
+        ("pruebas-grafos-floyd.xml", 2),
+        ("pruebas-grafos-astar.xml", 29),
     ]:
         arbol = ET.parse(ROOT / "validacion" / nombre)
         suites = list(arbol.getroot().iter("testsuite"))
@@ -159,7 +185,7 @@ def main():
         assert cantidad == esperadas and errores == 0, (nombre, cantidad, errores)
         total += cantidad
     ok(
-        f"Reportes de {total} pruebas aprobadas: 611 del equipo y 33 de los programas nuevos."
+        f"Reportes de {total} casos aprobados: 611 de la hormiga, 58 pruebas y 195 subpruebas del visualizador, y 33 de los programas nuevos."
     )
     fuentes = {}
     for p in (ROOT / "ia_unidad2").glob("*.py"):

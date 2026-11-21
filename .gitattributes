@@ -1,5 +1,3 @@
-*.py text eol=lf
-*.md text eol=lf
-*.sh text eol=lf
-*.csv text eol=lf
-*.png binary
+# Conservar los bytes de los proyectos compartidos para sus registros SHA-256.
+01-problema-hormiga/** -text
+02-visualizador-de-grafos/** -text

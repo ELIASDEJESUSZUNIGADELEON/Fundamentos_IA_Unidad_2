@@ -1,0 +1,74 @@
+{
+  "fecha_utc": "2026-11-21T01:58:21.777583+00:00",
+  "equipo": [
+    "Elias de Jesus Zuñiga de Leon",
+    "OSVALDO FABIAN RAMIRO BALBOA"
+  ],
+  "resultados": {
+    "dijkstra": {
+      "ruta": [
+        13,
+        16,
+        17,
+        69
+      ],
+      "aristas": [
+        "e53",
+        "e54",
+        "e55"
+      ],
+      "costo": 14.0,
+      "pasos": 374,
+      "nodos": 30
+    },
+    "bellman-ford": {
+      "ruta": [
+        13,
+        16,
+        17,
+        69
+      ],
+      "aristas": [
+        "e53",
+        "e54",
+        "e55"
+      ],
+      "costo": 14.0,
+      "pasos": 780,
+      "nodos": 30
+    },
+    "floyd-warshall": {
+      "ruta": [
+        13,
+        16,
+        17,
+        69
+      ],
+      "aristas": [
+        "e53",
+        "e54",
+        "e55"
+      ],
+      "costo": 14.0,
+      "pasos": 32,
+      "nodos": 30
+    },
+    "astar": {
+      "ruta": [
+        13,
+        16,
+        17,
+        69
+      ],
+      "aristas": [
+        "e53",
+        "e54",
+        "e55"
+      ],
+      "costo": 14.0,
+      "pasos": 294,
+      "nodos": 30
+    }
+  },
+  "captura": "capturas/02-grafos.png"
+}

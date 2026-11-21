@@ -6,6 +6,7 @@ import json
 import os
 from pathlib import Path
 import sys
+import subprocess
 import time
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -184,6 +185,11 @@ def main():
     arboles.close()
     guardar_json(ROOT / "capturas/resultados_demostraciones.json", resumen)
     print(json.dumps(resumen, ensure_ascii=False, indent=2), flush=True)
+    subprocess.run(
+        [sys.executable, str(ROOT / "herramientas/generar_evidencia_grafos.py")]
+        + (["--visible"] if args.visible else []),
+        check=True,
+    )
 
 
 if __name__ == "__main__":

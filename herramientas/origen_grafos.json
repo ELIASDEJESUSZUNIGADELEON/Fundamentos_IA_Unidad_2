@@ -1,0 +1,289 @@
+{
+  "repositorio": "https://github.com/FabiRamiro/Algoritmos-Said",
+  "revision": "1c02cdb4ad966b2832107ac405bd517d02bae674",
+  "equipo": [
+    "Elias de Jesus Zuñiga de Leon",
+    "OSVALDO FABIAN RAMIRO BALBOA"
+  ],
+  "archivos": [
+    {
+      "archivo": "02-visualizador-de-grafos/.gitignore",
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/.gitignore",
+      "sha256": "0175fcafc5d8328c584d3df3eeba657ad2c5ccda3956d46d15e15adb9ecdd57c"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/LEEME.md",
+      "sha256": "dff02aee9eca4e53f5b764d6a8d03ee0c0c8a76e7fb881336aa302df79bb52fd"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/algoritmo.py",
+      "sha256": "56731a442155b2a2ead6ef5647c6395beb0e1a59e1746c32ef72fd1384366b14"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/capturas.py",
+      "sha256": "7bbd64ec26221fe81e7da54214a67b96c620f0a461807d809ce1644f8e225407"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/grafo.json",
+      "sha256": "d496e862566f2b5dc88ee4f0c422f2c9ed006beaf14579077dc5f6fcedd0abde"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/grafo_original.jpeg",
+      "sha256": "be8e0c23177ea6d7f25aa641a7231c48b4e11626dc7d685a1f7fcfdfbde249cf"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/interfaz.py",
+      "sha256": "94fdd4e908b6d87fce1ecd4a2c7bcfaa285797b60b9d01e094c82c6f1281f976"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/main.py",
+      "sha256": "39a438b877192c454b19ebf1180c62f19eacdd005d323333e2f838e8379dd009"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/requirements.txt",
+      "sha256": "50984e8a7bad987c32d221dda69b10b1be93a87afedb39f6b29c994eaa71db0d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/tema.py",
+      "sha256": "5c7e90113e25bafcbdfd5c80ea24ddf47079d5be5bb87cf2f63f886e81a893fd"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/test_algoritmo.py",
+      "sha256": "fb1256c68077bc6f59594296af5095a698725475bb30957a2a17ab21a91d53fb"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/test_capturas.py",
+      "sha256": "67714ef463d4cf3c53bd3dae1047f6aa3d69cac80bc481ae709c954271baf194"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/LEEME.md",
+      "sha256": "c3a9fabc1f9471380f958544c7814d05873474e023a13298acd7dbe6821adfb8"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/algoritmo.py",
+      "sha256": "80bf32d577dc8ceef2ce39c978b032d3b7ba20826677c749c76d23a0083db541"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/capturas.py",
+      "sha256": "ae2df9f9b57d64b62c3d83e35eda8985f9f58c01f0fd28b98f2642e311686746"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/dibujo.py",
+      "sha256": "3c435faf28121d3474c9c58680fd0e008dbd1a94e7b30300c9de1ba757d33a5e"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/grafo.json",
+      "sha256": "f703710a3f8eee15337f7faccc79c3864484f828c99e7e4da2667f6badbbb07f"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/grafo_original.jpeg",
+      "sha256": "be8e0c23177ea6d7f25aa641a7231c48b4e11626dc7d685a1f7fcfdfbde249cf"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/interfaz.py",
+      "sha256": "cdcb34aebf2b3f39070f0b5c88a252a6d0b3c9c03d1ed329e7c6cc39150054ec"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/main.py",
+      "sha256": "1475591e4ebe387d113f8513048f47633b8d2205bf5e2fb531a9d3adadcd49bf"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/requirements.txt",
+      "sha256": "50984e8a7bad987c32d221dda69b10b1be93a87afedb39f6b29c994eaa71db0d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/tema.py",
+      "sha256": "5c7e90113e25bafcbdfd5c80ea24ddf47079d5be5bb87cf2f63f886e81a893fd"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/test_algoritmo.py",
+      "sha256": "e975c8544170a94106ea7f0f9c9902342036478eba5dfdb55eced025eac2433f"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/test_interfaz.py",
+      "sha256": "d98932737db52977bcbb97e6e6978cf49a99a92ed93f54ae597a66a8c5ebfd16"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/LEEME.md",
+      "sha256": "e2efdf026d17f0788e3ad059a9a43a8a9a15df5afda4f0bc3bd46cb833623f01"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/Recorrido_13_69.md",
+      "sha256": "25c96d28d646a76078d1a169ef3e84187dbbd2429cf4e42a98d9aa28ac35c84e"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/Tabla_por_nodo_fijado.csv",
+      "sha256": "2f44a2e353a9338f693ff49e5eceacd26a2227b961ba58ca5c3a2f8557beabae"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/Transcripcion_aristas.csv",
+      "sha256": "1d7320401f423b41bcc757bab309b06521f23371e868e609dd0029bf0bf3570d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/algoritmo.py",
+      "sha256": "44d1589162cc688fbc8f1cdbe5f4fedcca3520b759130e7b595d83fb9845968b"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/capturas.py",
+      "sha256": "519e95af707ea33b59f39d3c054046e69df961a3c78e8d87ee981203b020291d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/grafo.json",
+      "sha256": "d496e862566f2b5dc88ee4f0c422f2c9ed006beaf14579077dc5f6fcedd0abde"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/grafo_original.jpeg",
+      "sha256": "be8e0c23177ea6d7f25aa641a7231c48b4e11626dc7d685a1f7fcfdfbde249cf"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/interfaz.py",
+      "sha256": "1de1d50c30e1717e723eaa4eb2d25ed5706d16721c5d483df71bbc97df0c64f2"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/main.py",
+      "sha256": "ce885945b44f1744c5407a7ca2fadc0f81ea8f03e142e907041cbe72573a2208"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/requirements.txt",
+      "sha256": "50984e8a7bad987c32d221dda69b10b1be93a87afedb39f6b29c994eaa71db0d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/tema.py",
+      "sha256": "5c7e90113e25bafcbdfd5c80ea24ddf47079d5be5bb87cf2f63f886e81a893fd"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/.gitignore",
+      "sha256": "0be3b0a031bcc08824565ec8e125bff66e2e392d4fed28f4e4c6f54596df02a5"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/LEEME.md",
+      "sha256": "8a43af7bede2152fde26821115c2063c16650cf7592078789541223b1378fd70"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/algoritmo.py",
+      "sha256": "9059bcec9f568d7e38e5e6bcbf78eb48a5e732bdf398d72848e5f5e5b282877d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/capturas.py",
+      "sha256": "35641f45926439de32f46e20e894010114252775b3b1bf938ded4abee6623842"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/dibujo.py",
+      "sha256": "6d5db9bcf2e973f9f223eb95bf218f75342a5f5ab4ad8b29bd9676fb2aa79068"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/excel.py",
+      "sha256": "9ed2243a391ea8289ce72d04a46e7bfb232e980ff4a7e165b87a60c962a26d1c"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/grafo.json",
+      "sha256": "b8a3732383e0fbe7001dc60f70e5afcddb0aebb484572a4c34734147c8aaae51"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/grafo.py",
+      "sha256": "24e4349d26f65643d04cc02bd64473ccbd3b4935f5de61e36f9d9c9a3fe81cc5"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/grafo_original.jpeg",
+      "sha256": "be8e0c23177ea6d7f25aa641a7231c48b4e11626dc7d685a1f7fcfdfbde249cf"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/interfaz.py",
+      "sha256": "2c4638d2bd349907395c8c6b4983ce4201c21a467cd9713aa0a0ed4ba758f00a"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/main.py",
+      "sha256": "cafb73b60542e5b0b93d826f4b7dba192f28c0b455c81ca6a9685dbba60ea259"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/requirements.txt",
+      "sha256": "50984e8a7bad987c32d221dda69b10b1be93a87afedb39f6b29c994eaa71db0d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/tema.py",
+      "sha256": "5c7e90113e25bafcbdfd5c80ea24ddf47079d5be5bb87cf2f63f886e81a893fd"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/test_grafo_positivo.py",
+      "sha256": "0ab33bc25f4b651a828a10119d7c08b80d17d4cd0648a2e2e199f6075c3afe11"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/README.md",
+      "sha256": "f7a10567bde792d164a7451d5c0a7724b374a8d4acc6b8b93e7a96dbd7b241c2"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/aplicacion.py",
+      "sha256": "69e67d4c78e91ee61bbe947233f8e073ac04ddc533889611a3dda52a9951c0ed"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/cargador.py",
+      "sha256": "c1a125bf39c22c9ac3d41b81bcaa019d37d5728da83ee4327e7e6ae6fd17378b"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/diapositivas.py",
+      "sha256": "74dbeb5b3d59b59fd518737f43f161e19f678ec7970bc5a8ab6ba3d48bbed953"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/floyd_warshall.xlsx",
+      "sha256": "ae37552903601b781cdcc252dac2faea85919f1213a39e001e277467d3f0c15d"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/main.py",
+      "sha256": "d7e9e503ebfadbe9ef5b09da4e60b1e1e3ae1bd1cef85f0f737770c7153fa2d2"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/pantalla_carga.py",
+      "sha256": "3712fd04dfd173b5a4b195ce414379b5f8517b11915eee5229a25ead4ecb8041"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/requirements.txt",
+      "sha256": "f4e04e17f245f934059a677ee7ba7b4631c81edabfee562e0a95b8b99339ba13"
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/test_pantalla_carga.py",
+      "sha256": "6055c654fe3e902075281cb412721de07a18dc3ae1e32e64971d8270e8904044"
+    }
+  ],
+  "omitidos": "Cachés, capturas y exportaciones anteriores; MP4 opcionales de la pantalla de guardado.",
+  "ajustes_locales": [
+    {
+      "archivo": "02-visualizador-de-grafos/AStar_13_69/capturas.py",
+      "sha256_origen": "7bbd64ec26221fe81e7da54214a67b96c620f0a461807d809ce1644f8e225407",
+      "sha256_actual": "0700ad991cc4ebb6764c1aa36d94a7e8b373593e300b288d3365bdc50c3ae91b",
+      "motivo": "UUID en el nombre de sesión para evitar sobrescrituras al coincidir el reloj."
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/BellmanFord_13_69/capturas.py",
+      "sha256_origen": "ae2df9f9b57d64b62c3d83e35eda8985f9f58c01f0fd28b98f2642e311686746",
+      "sha256_actual": "15ed7c6056a6938491dbe73e630b92ea5caedac207f060f6b9e5905ce2941ad3",
+      "motivo": "UUID en el nombre de sesión para evitar sobrescrituras al coincidir el reloj."
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/Dijkstra_13_69/capturas.py",
+      "sha256_origen": "519e95af707ea33b59f39d3c054046e69df961a3c78e8d87ee981203b020291d",
+      "sha256_actual": "bfb746807873c8cf46aee51adfe7b8d3546560aa788ffdb3aa06061a0fc2bee8",
+      "motivo": "UUID en el nombre de sesión para evitar sobrescrituras al coincidir el reloj."
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/FloydWarshall_13_69/capturas.py",
+      "sha256_origen": "35641f45926439de32f46e20e894010114252775b3b1bf938ded4abee6623842",
+      "sha256_actual": "b01ceb49ddc520d877fed019419d1178abb606dd27abdf2f44c915628d586696",
+      "motivo": "UUID en el nombre de sesión para evitar sobrescrituras al coincidir el reloj."
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/README.md",
+      "sha256_origen": "f7a10567bde792d164a7451d5c0a7724b374a8d4acc6b8b93e7a96dbd7b241c2",
+      "sha256_actual": "56efd20608f3145c32947244234cc9605d774205048822edc3f50776bd3ef91b",
+      "motivo": "Créditos del equipo, instrucciones para la unidad y conteo de las pruebas incluidas."
+    },
+    {
+      "archivo": "02-visualizador-de-grafos/pantalla_carga.py",
+      "sha256_origen": "3712fd04dfd173b5a4b195ce414379b5f8517b11915eee5229a25ead4ecb8041",
+      "sha256_actual": "420aece065b18fae995b4ffd0813063bffe77d8139d2e3394621543bafe1d3e1",
+      "motivo": "Backend multimedia nativo en Windows; FFmpeg falló al cargar un video dañado."
+    }
+  ]
+}

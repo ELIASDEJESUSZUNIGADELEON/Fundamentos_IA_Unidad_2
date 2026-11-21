@@ -8,6 +8,8 @@ Actividades realizadas en la unidad 2 de Fundamentos de Inteligencia Artificial.
 
 Aplicación del equipo para encontrar una ruta que recoja todos los alimentos y llegue a la meta en una cuadrícula con obstáculos. Permite editar el mapa y ejecutar BFS, Dijkstra y A*.
 
+Trabajo en equipo con **César Euresti** y **JUNIOR ARTURO VAZQUEZ LEONEL**.
+
 En la demostración se recogieron tres alimentos con una ruta de costo 21. Los tres algoritmos coincidieron en el costo.
 
 [Proyecto del equipo](01-problema-hormiga/) · [Resultados de la ejecución](01-problema-hormiga/resultados/verificacion_equipo.json)
@@ -16,7 +18,15 @@ En la demostración se recogieron tres alimentos con una ruta de costo 21. Los t
 
 ## 2. Visualizador de grafos
 
-Pendiente de agregar.
+Visualizador de caminos mínimos con Dijkstra, Bellman-Ford, Floyd-Warshall y A*. Permite recorrer los cálculos paso a paso, consultar las distancias y observar la ruta sobre el grafo.
+
+Trabajo en equipo con **OSVALDO FABIAN RAMIRO BALBOA**.
+
+En la demostración, los cuatro algoritmos encontraron la ruta 13 → 16 → 17 → 69, con costo 14.
+
+[Proyecto del equipo](02-visualizador-de-grafos/) · [Resultados de la ejecución](02-visualizador-de-grafos/resultados/verificacion_equipo.json)
+
+![Visualizador de grafos con la ruta calculada mediante Dijkstra](capturas/02-grafos.png)
 
 ## 3. Laboratorio de algoritmos evolutivos
 

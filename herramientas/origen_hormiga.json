@@ -254,5 +254,18 @@
       "archivo": "01-problema-hormiga/uv.lock",
       "sha256": "3d92decda7993226aced741b7b300bb7815593bae512a64c2b1be235e1a1744a"
     }
+  ],
+  "ajustes_locales": [
+    {
+      "archivo": "01-problema-hormiga/README.md",
+      "sha256_origen": "4a66444c2d5172049995a6454c600a84c8df562b7b0861c97740cb5d1117127e",
+      "sha256_actual": "4be3d7275c9ca0b60bfc4c7384640f19c317ff9918bf00387e31c9861309d9eb",
+      "motivo": "Identificación de los integrantes del equipo."
+    }
+  ],
+  "equipo": [
+    "Elias de Jesus Zuñiga de Leon",
+    "César Euresti",
+    "JUNIOR ARTURO VAZQUEZ LEONEL"
   ]
 }

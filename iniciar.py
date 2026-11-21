@@ -3,6 +3,7 @@
 import argparse
 from pathlib import Path
 import sys
+import subprocess
 
 
 def main():
@@ -10,9 +11,16 @@ def main():
         description="Actividades de Fundamentos de IA · Unidad 2"
     )
     parser.add_argument(
-        "actividad", choices=["hormiga", "laboratorio", "reinas", "arboles"]
+        "actividad", choices=["hormiga", "grafos", "laboratorio", "reinas", "arboles"]
     )
     args = parser.parse_args()
+    if args.actividad == "grafos":
+        return subprocess.run(
+            [
+                sys.executable,
+                str(Path(__file__).parent / "02-visualizador-de-grafos/main.py"),
+            ]
+        ).returncode
     if args.actividad == "hormiga":
         sys.path.insert(0, str(Path(__file__).parent / "01-problema-hormiga/src"))
         from ant_pathfinding import main as hormiga
